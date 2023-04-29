@@ -1,0 +1,18 @@
+{
+  "id": "mig_ch5j979nghoiu7rvlgng",
+  "parentID": "mig_ch5j86frqnjmctqndt00",
+  "checksum": "1:65f1fa338d4b453333f51c1ae50d6ffa4c5f5b76d09f7f4d3b6135090e81844c",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "credPubKey",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": ""
+        },
+        "table": "users"
+      }
+    }
+  ]
+}
